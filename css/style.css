@@ -1,0 +1,731 @@
+/* FONTS */
+@font-face {
+	font-family: 'Mulish';
+	src: url('../font/Mulish/Mulish-ExtraBold.eot');
+	src: local('☺'), url('../font/Mulish/Mulish-ExtraBold.woff') format('woff'), url('../font/Mulish/Mulish-ExtraBold.ttf') format('truetype'), url('../font/Mulish/Mulish-ExtraBold.svg') format('svg');
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Mulish';
+	src: url('../font/Mulish/Mulish-Bold.eot');
+	src: local('☺'), url('../font/Mulish/Mulish-Bold.woff') format('woff'), url('../font/Mulish/Mulish-Bold.ttf') format('truetype'), url('../font/Mulish/Mulish-Bold.svg') format('svg');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Mulish';
+	src: url('../font/Mulish/Mulish-Regular.eot');
+	src: local('☺'), url('../font/Mulish/Mulish-Regular.woff') format('woff'), url('../font/Mulish/Mulish-Regular.ttf') format('truetype'), url('../font/Mulish/Mulish-Regular.svg') format('svg');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Marcellus';
+	src: url('../font/Marcellus/Marcellus-Regular.eot');
+	src: local('☺'), url('../font/Marcellus/Marcellus-Regular.woff') format('woff'), url('..font/Marcellus/Marcellus-Regular.ttf') format('truetype'), url('..font/Marcellus/Marcellus-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Poppins';
+	src: url('../font/Poppins/Poppins-Medium.eot');
+	src: local('☺'), url('../font/Poppins/Poppins-Medium.woff') format('woff'), url('../font/Poppins/Poppins-Medium.ttf') format('truetype'), url('../font/Poppins/Poppins-Medium.svg') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}
+
+.main-header{
+    width: 100%;
+    background: #000;
+    display: flex;
+    justify-content: center;
+}
+
+.inner-header{
+    width: 84%;
+    display: flex;
+    justify-content: space-between;
+    background: rgb(0, 0, 0);
+}
+
+.logo-block{
+    width: 15%;
+    height: 100px;
+    display: flex;
+    background: rgb(0, 0, 0);
+}
+
+.logo-link{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    font-family: 'Poppins';
+    color: #fff;
+    font-size: 40px;
+    line-height: 0px;
+}
+
+.link-text{
+    margin-left: 17px;
+}
+
+.logo-image{
+    width: 70px;
+    height: 70px;
+}
+
+.main-nav{
+    width: 25%;
+    height: 100px;
+    background: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-nav a{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFF;
+    opacity: 50%;
+    padding-bottom: 5px;
+}
+
+.main-nav a:hover{
+    opacity: 100%;
+    border-bottom: 2px solid transparent;
+    border-image: linear-gradient(316.53deg, #26FFF2 13.2%, #326CFF 71.54%);
+    border-image-slice: 1;
+    font-family: 'Mulish';
+    font-weight: 800;
+}
+
+.top-icon{
+    width: 15%;
+    height: 100px;
+    background: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-section{
+    display: flex;
+}
+
+.main-block--content{
+    display: flex;
+    width: 84%;
+    min-height: 766px;
+    margin: 0 auto;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    min-height: 766px;
+}
+
+.movie-subject{
+    display: flex;
+    color: #fff;
+    font-family: 'Marcellus';
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 70px;
+    width: 532px;
+}
+
+.info-movie--block{
+    display: flex;
+    width: 35%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info-movie--block p{
+    color: #fff;
+    display: flex;
+    font-family: 'Mulish';
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 10px;
+}
+
+.age-block{
+    display: flex;
+    width: 60.75px;
+    height: 25px;
+    background: linear-gradient(316.53deg, #26FFF2 13.2%, #326CFF 71.54%);
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.age-info{
+    width: 95%;
+    height: 95%;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+}
+
+.rate-block{
+    display: flex;
+    justify-content: space-evenly;
+    align-self: center;
+    width: 60px;
+}
+
+.rate-icon{
+    display: flex;
+}
+
+.more-info--movie{
+    color: #C2C2C2;
+    width: 507px;
+    font-family: 'Mulish';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.main-btn--block{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.watch-btn{
+    width: 141px;
+    height: 50px;
+    background: linear-gradient(316.53deg, #26FFF2 13.2%, #326CFF 71.54%);
+    box-shadow: 0px 4px 50px rgba(50, 108, 255, 0.5);
+    border: none;
+    border-radius: 100px;
+    font-family: 'Mulish';
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+}
+
+.play-icon{
+    margin-right: 10px;
+}
+
+.more-info--btn{
+    width: 195px;
+    height: 50px;
+    background: #FFFFFF;
+    border-radius: 100px;
+    border: none;
+    font-family: 'Mulish';
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.back-image--block{
+    display: flex;
+    width: 60%;
+    min-height: 100%;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.85) 0%, rgba(157, 115, 255, 0) 100%), url(../image/main-image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* ==========================SECTION2================================= */
+
+.trend-main--block{
+    width: 100%;
+    min-height: 1020px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+}
+
+.main-block-trending{
+    background-color: rgb(0, 0, 0);
+    width: 84%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.trending-tv-shows--block{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.subject-trend-tv--block{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+}
+
+.subject-trend-tv--link{
+    display: flex;
+    height: 50px;
+    width: 20%;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    font-family: 'Mulish';
+    font-weight: 700;
+    font-size: 28px;
+    text-decoration: none;
+    line-height: 20px;
+}
+
+.line{
+    display: flex;
+    align-items: center;
+    width: 8px;
+    height: 30px;
+    background: linear-gradient(316.53deg, #26FFF2 13.2%, #326CFF 71.54%);
+    border-radius: 50px;
+}
+
+.recom-tv-shows{
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+}
+
+.recom-tv-shows a img{
+    border-radius: 21px;
+}
+
+.recom-tv-shows a:hover{
+    box-shadow: 0px 0px 3px 3px #26fff181;
+    border-radius: 10px;
+}
+
+/* ============================TREND=MOVIE============================ */
+
+.trending-movies--block{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 40%;
+}
+
+.subject-trend-movie--block{
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.subject-trend-movie--link{
+    display: flex;
+    width: 17%;
+    height: 50px;
+    color: #fff;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Mulish';
+    font-weight: 700;
+    font-size: 28px;
+    text-decoration: none;
+    line-height: 20px;
+}
+
+.recom-movie--block{
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+}
+
+.recom-movie--block a img{
+    border-radius: 10px;
+}
+
+.recom-movie--block a:hover{
+    box-shadow: 0px 0px 3px 3px #26fff181;
+    border-radius: 10px;
+}
+
+.see-more--button{
+    width: 141px;
+    height: 50px;
+    background: linear-gradient(316.53deg, #26FFF2 13.2%, #326CFF 71.54%);
+    box-shadow: 0px 4px 50px rgba(50, 108, 255, 0.5);
+    border: none;
+    border-radius: 100px;
+    font-family: 'Mulish';
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+}
+
+/* ============================POPULAR=GAMES============================ */
+
+.popular-games-main--block{
+    width: 100%;
+    min-height: 600px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+}
+
+.popular-games-block{
+    background-color: rgb(0, 0, 0);
+    width: 84%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.popular-games--subject--block{
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    height: 60px;
+}
+
+.popular-games--subject{
+    display: flex;
+    width: 17%;
+    height: 50px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    font-family: 'Mulish';
+    font-weight: 700;
+    font-size: 28px;
+    text-decoration: none;
+    line-height: 20px;
+}
+
+.genre-block{
+    width: 100%;
+    min-height: 450px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.genre-block a{
+    width: 340px;
+    height: 198px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    color: #fff;
+    font-size: 28px;
+    line-height: 20px;
+    flex-direction: column;
+}
+
+.genre-block a:hover{
+    box-shadow: 0px 10px 50px rgba(50, 108, 255, 0.5);
+}
+
+.genre-block a img{
+    width: 80px;
+    height: 80px;
+    padding-bottom: 10px;
+}
+
+.romance-link{
+    background: linear-gradient(109.31deg, #FD093F 2.4%, #F383F1 100%);
+}
+
+.drama-link{
+    background: linear-gradient(114.5deg, #0FFFDA 2.22%, #3CDB77 68.84%);
+}
+
+.historical-link{
+    background: linear-gradient(109.31deg, #B936FF 2.4%, #57DEDA 100%);
+}
+
+.action-link{
+    background: linear-gradient(109.31deg, #FD093F 2.4%, #FB1378 2.41%, #FCCB1A 100%);
+}
+
+.sci-fi-link{
+    background: linear-gradient(109.31deg, #FF6472 2.4%, #FDA75D 100%);
+}
+
+.horror-link{
+    background: linear-gradient(110.16deg, #13547A 2.37%, #80D0C7 96.77%);
+}
+
+.comedy-link{
+    background: linear-gradient(109.93deg, #FFF77B 2.37%, #FFBF42 50%);
+}
+
+.documentary-link{
+    background: linear-gradient(109.31deg, #1FA2FF 2.4%, #1FA2FF 2.41%, #1F535C 97.46%);
+}
+
+/* ===========================POPULAR=PEOPLE=============================== */
+
+.popular-people-main--block{
+    width: 100%;
+    min-height: 600px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+}
+
+.inner-popular--block{
+    background-color: rgb(0, 0, 0);
+    width: 84%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.popular-people--subject--block{
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    height: 60px;
+}
+
+.popular-people--subject--link{
+    display: flex;
+    width: 26%;
+    height: 50px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    font-family: 'Mulish';
+    font-weight: 700;
+    font-size: 28px;
+    text-decoration: none;
+    line-height: 20px;
+}
+
+.popular-people-photo--block{
+    width: 100%;
+    min-height: 450px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+}
+
+.popular-people-photo--block a{
+    color: #fff;
+    display: flex;
+    width: 211px;
+    height: 318px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.popular-people-photo--block a img{
+    border-radius: 100px;
+    width: 190px;
+    height: 190px;
+}
+
+.ads-main--block{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: auto;
+}
+
+.inner-ads--block{
+    width: 84%;
+    min-height: 750px;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+}
+
+.coming--block{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(87.02deg, #0D1A73 29.67%, #000000 70.52%);
+    box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+}
+
+.coming--block a{
+    width: 50%;
+    display: flex;
+}
+
+.coming-soon--link{
+    justify-content: center;
+}
+
+.bunny-movie--link img{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.purple--block{
+    width: 83%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 270px;
+    background-image: linear-gradient(to top, #000000 1%, transparent 100%), url(../image/ads1.png);
+    background-position: center;
+    backdrop-filter: blur(50px);
+    background-repeat: no-repeat;
+}
+
+.register--subject{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    width: 60%;
+    line-height: 100%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.register-btn{
+    width: 141px;
+    height: 50px;
+    background: linear-gradient(316.53deg, #26FFF2 13.2%, #326CFF 71.54%);
+    box-shadow: 0px 4px 50px rgba(50, 108, 255, 0.5);
+    border: none;
+    border-radius: 100px;
+    font-family: 'Mulish';
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+}
+
+/* ==========================FOOTER=================================== */
+
+.main-footer{
+    width: 100%;
+    min-height: 280px;
+    background: #101012;
+    display: flex;
+    justify-content: center;
+}
+
+.inner--block-footer{
+    width: 84%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text--block1 a, .text--block2 a, .text--block3 a, .text--block4 a{
+    color: #fff;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #C2C2C2;
+    width: 194px;
+}
+
+.text--block1, .text--block2, .text--block3, .text--block4{
+    display: flex;
+    flex-direction: column;
+    width: 194px;
+    min-height: 80px;
+}
+
+/* ===========BACK TO TOP BTN CSS============== */
+#TopBtn {
+    display: none;
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: rgb(114, 114, 114);
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 18px;
+    -webkit-animation: pulsing 2s infinite;
+    animation: pulsing 2s infinite;
+}
+
+@-webkit-keyframes pulsing {
+    0% {
+      -webkit-transform: scale(0.5, 0.5);
+      transform: scale(0.5, 0.5)
+    }
+    50% {
+      -webkit-transform: scale(1.0, 1.0);
+      transform: scale(1.0, 1.0);
+    }
+    100% {
+      -webkit-transform: scale(0.5, 0.5);
+      transform: scale(0.5, 0.5);
+    }
+  }
+  
+  @keyframes pulsing {
+    0% {
+      -webkit-transform: scale(0.5, 0.5);
+      transform: scale(0.5, 0.5)
+    }
+    50% {
+      -webkit-transform: scale(1.0, 1.0);
+      transform: scale(1.0, 1.0);
+    }
+    100% {
+      -webkit-transform: scale(0.5, 0.5);
+      transform: scale(0.5, 0.5);
+    }
+  }
+
+#TopBtn:hover {
+    background-color: #555;
+}

@@ -1,0 +1,17 @@
+body {
+  margin: 20px;
+  background-color: #000;
+}
+
+a {
+  text-decoration: none;
+}
+
+.top-search--icon,
+.top-message--icon,
+.top-user--icon {
+  width: 20px;
+  min-height: 20px;
+}
+
+/*# sourceMappingURL=stylesass.css.map */

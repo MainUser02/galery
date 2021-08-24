@@ -1,0 +1,49 @@
+@media screen and (max-width: 1760px) {
+    .info-movie--block{
+        width: 50%;
+    }
+    .main-btn--block {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 1700px) {
+    .genre-block{
+        min-height: 650px;
+        align-content: space-evenly;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .main-btn--block {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    .main-nav{
+        width: 40%;
+    }
+    .info-movie--block{
+        width: 60%;
+    }
+    .subject-trend-tv--link {
+        width: 30%;
+    }
+    .recom-tv-shows{
+        flex-flow: wrap;
+    }
+    .subject-trend-movie--link{
+        width: 25%;
+    }
+    .recom-movie--block{
+        flex-flow: wrap;
+    }
+    .echo-movie--link{
+        padding-top: 15px;
+    }
+    .popular-games--subject{
+        width: 25%;
+    }
+}
+
